@@ -1,0 +1,10 @@
+import time, RPi.GPIO as GPIO
+GPIO.setmode(GOIP.BCM)
+GPIO.setup(17,GOIP.OUT)
+i=0
+while i<10:
+	LEDon = GPIO.output(17,1)	#LED«G
+	time.sleep(0.5)
+	LEDoff = GPIO.output(17,0)	#LED·À
+	time.sleep(0.5)
+	i+=1
