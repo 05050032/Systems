@@ -9,3 +9,6 @@ while 1:
 	if i:
 		GPIO.output(17, GPIO.HIGH)
 	GPIO.output(17, GPIO.LOW)
+	
+
+按鈕一腳接地 一腳接3.3
