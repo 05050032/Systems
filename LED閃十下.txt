@@ -3,8 +3,8 @@ GPIO.setmode(GOIP.BCM)
 GPIO.setup(17,GOIP.OUT)
 i=0
 while i<10:
-	LEDon = GPIO.output(17,1)	#LED«G
+	LEDon = GPIO.output(17,1)	#LEDäº®
 	time.sleep(0.5)
-	LEDoff = GPIO.output(17,0)	#LED·À
+	LEDoff = GPIO.output(17,0)	#LEDæ»…
 	time.sleep(0.5)
 	i+=1
