@@ -11,4 +11,4 @@ while 1:
 	GPIO.output(17, GPIO.LOW)
 	
 
-按鈕一腳接地 一腳接3.3
+按鈕一腳4 一腳接3.3
